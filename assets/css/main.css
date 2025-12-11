@@ -2401,6 +2401,15 @@ ul {
 
 .work-detail__entry .work-img {
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-detail__entry .work-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .work-detail__entry--centered-gif .work-img {
@@ -2427,6 +2436,7 @@ ul {
 }
 
 .work-img-group .work-img {
+    justify-content: center;
     flex: 1;
     margin-top: 0;
 }
@@ -3376,9 +3386,11 @@ ul {
 }
 
 .project-gallery__description {
+    font-family: "Fira Code", "Courier New", monospace;
     margin: 0;
     font-size: 14px;
-    line-height: 1.6;
+    font-weight: 700;
+    line-height: 1.5;
     color: #3f4046;
 }
 
